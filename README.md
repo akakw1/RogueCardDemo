@@ -1,3 +1,3 @@
 # RogueCardDemo
 
-a demo for a roguelike card game.
+a demo server for a roguelike card game.
