@@ -1,7 +1,10 @@
 #pragma once
 
 #include <sqlpp11/mysql/mysql.h>
+#include <sqlpp11/sqlpp11.h>
 #include <string>
+
+#include "demo.h"
 
 typedef class DatabaseManager {
     //----------------
@@ -17,7 +20,7 @@ typedef class DatabaseManager {
     public :
 
     void init(const std::string host, const std::string user, const std::string password, const std::string database, const bool debug);
-    DBM getInstance();
+    static DBM getInstance();
 
     bool signUp(const std::string username, const std::string password);
     bool signIn(const std::string username, const std::string password);

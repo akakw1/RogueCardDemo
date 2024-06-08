@@ -1,0 +1,15 @@
+{
+    "version" : "0.1",
+    "database" : {
+        "dbms" : "mysql",
+        "host" : "localhost",
+        "user" : "DBServer",
+        "password" : "DBServer@123",
+        "database" : "demo",
+        "debug" : false
+    },
+    "redis" : {
+        "host" : "127.0.0.1",
+        "port" : 6379
+    }
+}
