@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/wzx/桌面/Project/main.cpp" "CMakeFiles/main.dir/main.cpp.o" "gcc" "CMakeFiles/main.dir/main.cpp.o.d"
   "/home/wzx/桌面/Project/src/DatabaseManager.cpp" "CMakeFiles/main.dir/src/DatabaseManager.cpp.o" "gcc" "CMakeFiles/main.dir/src/DatabaseManager.cpp.o.d"
+  "/home/wzx/桌面/Project/src/LogManager.cpp" "CMakeFiles/main.dir/src/LogManager.cpp.o" "gcc" "CMakeFiles/main.dir/src/LogManager.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

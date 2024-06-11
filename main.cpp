@@ -1,19 +1,25 @@
 #include "include/DatabaseManager.h"
 #include "include/RedisManager.h"
+#include "include/LogManager.h"
 #include <json/json.h>
 #include <fstream>
 #include <string>
 
 Json::Value config;
-DBM db;
 
 void loadConfig() {
     std::ifstream in("config.json");
     in >> config;
     in.close();
 }
+void initLogger() {
+    LM logger = LogManager::getInstance();
+    Json::Value loggerConfig = config["logger"];
+    std::string configFile = loggerConfig["configFile"].asString();
+    logger->init(configFile);
+}
 void initDB() {
-    db = DatabaseManager::getInstance();
+    DBM db = DatabaseManager::getInstance();
     Json::Value dbConfig = config["database"];
     std::string host = dbConfig["host"].asString();
     std::string user = dbConfig["user"].asString();
@@ -23,8 +29,13 @@ void initDB() {
     db->init(host, user, password, database, debug);
 }
 
-int main() {
+void init() {
     loadConfig();
+    initLogger();
     initDB();
+}
+
+int main() {
+    init();
     return 0;
 }

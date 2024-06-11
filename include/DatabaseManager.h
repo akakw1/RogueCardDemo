@@ -5,6 +5,7 @@
 #include <string>
 
 #include "demo.h"
+#include "LogManager.h"
 
 typedef class DatabaseManager {
     //----------------
@@ -16,6 +17,8 @@ typedef class DatabaseManager {
     sqlpp::mysql::connection_config conf; // 数据库连接配置
     sqlpp::mysql::connection conn; // 数据库连接
 
+    LM logger;
+
     // ---------------
     public :
 
@@ -26,5 +29,3 @@ typedef class DatabaseManager {
     bool signIn(const std::string username, const std::string password);
 
 } *DBM;
-
-//DBM DatabaseManager::instance = nullptr;

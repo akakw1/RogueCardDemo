@@ -177,6 +177,30 @@ src/DatabaseManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/DatabaseManager.cpp.s
 .PHONY : src/DatabaseManager.cpp.s
 
+src/LogManager.o: src/LogManager.cpp.o
+.PHONY : src/LogManager.o
+
+# target to build an object file
+src/LogManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/LogManager.cpp.o
+.PHONY : src/LogManager.cpp.o
+
+src/LogManager.i: src/LogManager.cpp.i
+.PHONY : src/LogManager.i
+
+# target to preprocess a source file
+src/LogManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/LogManager.cpp.i
+.PHONY : src/LogManager.cpp.i
+
+src/LogManager.s: src/LogManager.cpp.s
+.PHONY : src/LogManager.s
+
+# target to generate assembly for a file
+src/LogManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/LogManager.cpp.s
+.PHONY : src/LogManager.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +216,9 @@ help:
 	@echo "... src/DatabaseManager.o"
 	@echo "... src/DatabaseManager.i"
 	@echo "... src/DatabaseManager.s"
+	@echo "... src/LogManager.o"
+	@echo "... src/LogManager.i"
+	@echo "... src/LogManager.s"
 .PHONY : help
 
 

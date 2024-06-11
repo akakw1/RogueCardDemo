@@ -451,4 +451,28 @@ CMakeFiles/main.dir/src/DatabaseManager.cpp.o: \
  /usr/local/include/sqlpp11/schema.h \
  /usr/local/include/sqlpp11/custom_query.h \
  /usr/local/include/sqlpp11/hidden.h \
- /home/wzx/桌面/Project/src/../include/demo.h
+ /home/wzx/桌面/Project/src/../include/demo.h \
+ /home/wzx/桌面/Project/src/../include/LogManager.h \
+ /usr/local/include/log4cplus/logger.h \
+ /usr/local/include/log4cplus/config.hxx \
+ /usr/local/include/log4cplus/config/defines.hxx \
+ /usr/local/include/log4cplus/helpers/thread-config.h \
+ /usr/local/include/log4cplus/loglevel.h \
+ /usr/local/include/log4cplus/tstring.h \
+ /usr/local/include/log4cplus/tchar.h \
+ /usr/local/include/log4cplus/spi/appenderattachable.h \
+ /usr/local/include/log4cplus/appender.h \
+ /usr/local/include/log4cplus/layout.h \
+ /usr/local/include/log4cplus/streams.h \
+ /usr/local/include/log4cplus/helpers/timehelper.h \
+ /usr/local/include/log4cplus/helpers/pointer.h \
+ /usr/local/include/log4cplus/thread/syncprims.h \
+ /usr/include/c++/13/condition_variable /usr/include/c++/13/atomic \
+ /usr/local/include/log4cplus/spi/filter.h \
+ /usr/local/include/log4cplus/helpers/lockfile.h \
+ /usr/local/include/log4cplus/spi/loggerfactory.h \
+ /usr/local/include/log4cplus/loggingmacros.h \
+ /usr/local/include/log4cplus/helpers/snprintf.h \
+ /usr/include/c++/13/cstdarg /usr/local/include/log4cplus/tracelogger.h \
+ /usr/local/include/log4cplus/configurator.h \
+ /usr/local/include/log4cplus/helpers/property.h

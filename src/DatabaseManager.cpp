@@ -16,7 +16,7 @@ void DatabaseManager::init(const std::string host, const std::string user, const
     conf.database = database;
     conf.debug = debug;
 
-    //conn(conf);
+    conn = sqlpp::mysql::connection(conf);
 }
 
 bool DatabaseManager::signUp(const std::string username, const std::string password) {
@@ -31,5 +31,6 @@ bool DatabaseManager::signIn(const std::string username, const std::string passw
 }
 
 DatabaseManager::DatabaseManager() {
-    printf("Database Manager onCreate\n");
+    logger = LogManager::getInstance();
+    logger->info("Database Manager onCreate");
 }
