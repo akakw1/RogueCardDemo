@@ -1,5 +1,7 @@
 #include "../include/DatabaseManager.h"
 
+DBM DatabaseManager::instance = nullptr;
+
 DBM DatabaseManager::getInstance() {
     if(instance == nullptr) {
         instance = new DatabaseManager();
@@ -14,7 +16,7 @@ void DatabaseManager::init(const std::string host, const std::string user, const
     conf.database = database;
     conf.debug = debug;
 
-    conn(conf);
+    //conn(conf);
 }
 
 bool DatabaseManager::signUp(const std::string username, const std::string password) {
@@ -24,7 +26,7 @@ bool DatabaseManager::signUp(const std::string username, const std::string passw
 }
 bool DatabaseManager::signIn(const std::string username, const std::string password) {
     demo::Accounts tmp;
-    auto result = conn(select(tmp.userId).from(tmp).where(tmp.userName == username && tmp.passWord = password));
+    auto result = conn(select(tmp.userId).from(tmp).where(tmp.userName == username.c_str() and tmp.passWord == password.c_str()));
     return ! result.empty();
 }
 

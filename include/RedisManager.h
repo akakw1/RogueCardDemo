@@ -7,7 +7,7 @@ typedef class RedisManager {
 // -----------------
     private :
 
-    static RM instance;
+    static RedisManager* instance;
     RedisManager();
 
     redisContext conn;
@@ -15,7 +15,7 @@ typedef class RedisManager {
 // -----------------
     public :
 
-    RM getInstance();
+    static RedisManager* getInstance();
     void init(std::string host, int port);
 
     void putToken(int userId, std::string token);
