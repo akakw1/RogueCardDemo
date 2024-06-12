@@ -478,16 +478,17 @@ CMakeFiles/main.dir/main.cpp.o: /home/wzx/桌面/Project/main.cpp \
  /home/wzx/桌面/Project/include/RedisManager.h \
  /usr/include/hiredis/hiredis.h /usr/include/hiredis/read.h \
  /usr/include/x86_64-linux-gnu/sys/time.h /usr/include/hiredis/sds.h \
- /usr/include/hiredis/alloc.h /usr/include/json/json.h \
- /usr/include/json/config.h /usr/include/json/allocator.h \
- /usr/include/c++/13/cstring /usr/include/string.h /usr/include/strings.h \
- /usr/include/json/version.h /usr/include/json/json_features.h \
- /usr/include/json/forwards.h /usr/include/json/reader.h \
- /usr/include/json/value.h /usr/include/c++/13/array \
- /usr/include/c++/13/compare /usr/include/c++/13/deque \
- /usr/include/c++/13/bits/stl_deque.h /usr/include/c++/13/bits/deque.tcc \
- /usr/include/c++/13/stack /usr/include/c++/13/bits/stl_stack.h \
- /usr/include/json/writer.h /usr/include/c++/13/fstream \
+ /usr/include/hiredis/alloc.h /home/wzx/桌面/Project/include/status.h \
+ /usr/include/json/json.h /usr/include/json/config.h \
+ /usr/include/json/allocator.h /usr/include/c++/13/cstring \
+ /usr/include/string.h /usr/include/strings.h /usr/include/json/version.h \
+ /usr/include/json/json_features.h /usr/include/json/forwards.h \
+ /usr/include/json/reader.h /usr/include/json/value.h \
+ /usr/include/c++/13/array /usr/include/c++/13/compare \
+ /usr/include/c++/13/deque /usr/include/c++/13/bits/stl_deque.h \
+ /usr/include/c++/13/bits/deque.tcc /usr/include/c++/13/stack \
+ /usr/include/c++/13/bits/stl_stack.h /usr/include/json/writer.h \
+ /usr/include/c++/13/fstream \
  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
  /usr/include/c++/13/bits/fstream.tcc

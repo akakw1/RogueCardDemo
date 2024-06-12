@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/wzx/桌面/Project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wzx/桌面/Project
+CMAKE_BINARY_DIR = /home/wzx/桌面/Project/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/main.dir/depend.make
@@ -70,9 +70,9 @@ include CMakeFiles/main.dir/progress.make
 include CMakeFiles/main.dir/flags.make
 
 CMakeFiles/main.dir/main.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/main.cpp.o: main.cpp
+CMakeFiles/main.dir/main.cpp.o: /home/wzx/桌面/Project/main.cpp
 CMakeFiles/main.dir/main.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/wzx/桌面/Project/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/wzx/桌面/Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/main.cpp.o -MF CMakeFiles/main.dir/main.cpp.o.d -o CMakeFiles/main.dir/main.cpp.o -c /home/wzx/桌面/Project/main.cpp
 
 CMakeFiles/main.dir/main.cpp.i: cmake_force
@@ -84,9 +84,9 @@ CMakeFiles/main.dir/main.cpp.s: cmake_force
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wzx/桌面/Project/main.cpp -o CMakeFiles/main.dir/main.cpp.s
 
 CMakeFiles/main.dir/src/DatabaseManager.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/DatabaseManager.cpp.o: src/DatabaseManager.cpp
+CMakeFiles/main.dir/src/DatabaseManager.cpp.o: /home/wzx/桌面/Project/src/DatabaseManager.cpp
 CMakeFiles/main.dir/src/DatabaseManager.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/wzx/桌面/Project/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/DatabaseManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/wzx/桌面/Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/DatabaseManager.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/DatabaseManager.cpp.o -MF CMakeFiles/main.dir/src/DatabaseManager.cpp.o.d -o CMakeFiles/main.dir/src/DatabaseManager.cpp.o -c /home/wzx/桌面/Project/src/DatabaseManager.cpp
 
 CMakeFiles/main.dir/src/DatabaseManager.cpp.i: cmake_force
@@ -98,9 +98,9 @@ CMakeFiles/main.dir/src/DatabaseManager.cpp.s: cmake_force
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wzx/桌面/Project/src/DatabaseManager.cpp -o CMakeFiles/main.dir/src/DatabaseManager.cpp.s
 
 CMakeFiles/main.dir/src/LogManager.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/LogManager.cpp.o: src/LogManager.cpp
+CMakeFiles/main.dir/src/LogManager.cpp.o: /home/wzx/桌面/Project/src/LogManager.cpp
 CMakeFiles/main.dir/src/LogManager.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/wzx/桌面/Project/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/LogManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/wzx/桌面/Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/LogManager.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/LogManager.cpp.o -MF CMakeFiles/main.dir/src/LogManager.cpp.o.d -o CMakeFiles/main.dir/src/LogManager.cpp.o -c /home/wzx/桌面/Project/src/LogManager.cpp
 
 CMakeFiles/main.dir/src/LogManager.cpp.i: cmake_force
@@ -112,9 +112,9 @@ CMakeFiles/main.dir/src/LogManager.cpp.s: cmake_force
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wzx/桌面/Project/src/LogManager.cpp -o CMakeFiles/main.dir/src/LogManager.cpp.s
 
 CMakeFiles/main.dir/src/RedisManager.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/RedisManager.cpp.o: src/RedisManager.cpp
+CMakeFiles/main.dir/src/RedisManager.cpp.o: /home/wzx/桌面/Project/src/RedisManager.cpp
 CMakeFiles/main.dir/src/RedisManager.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/wzx/桌面/Project/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/RedisManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/wzx/桌面/Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/RedisManager.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/RedisManager.cpp.o -MF CMakeFiles/main.dir/src/RedisManager.cpp.o.d -o CMakeFiles/main.dir/src/RedisManager.cpp.o -c /home/wzx/桌面/Project/src/RedisManager.cpp
 
 CMakeFiles/main.dir/src/RedisManager.cpp.i: cmake_force
@@ -142,7 +142,7 @@ main: CMakeFiles/main.dir/src/RedisManager.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: ./lib/libjsoncpp.a
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/wzx/桌面/Project/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/wzx/桌面/Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -154,6 +154,6 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 CMakeFiles/main.dir/depend:
-	cd /home/wzx/桌面/Project && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wzx/桌面/Project /home/wzx/桌面/Project /home/wzx/桌面/Project /home/wzx/桌面/Project /home/wzx/桌面/Project/CMakeFiles/main.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/wzx/桌面/Project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wzx/桌面/Project /home/wzx/桌面/Project /home/wzx/桌面/Project/build /home/wzx/桌面/Project/build /home/wzx/桌面/Project/build/CMakeFiles/main.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/main.dir/depend
 

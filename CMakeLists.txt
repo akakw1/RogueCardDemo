@@ -12,4 +12,4 @@ set_property(TARGET jsoncpp PROPERTY IMPORTED_LOCATION ./lib/libjsoncpp.a)
 add_executable(main main.cpp ${SRC_LIST})
 
 include_directories (/usr/include/mysql)
-target_link_libraries(main jsoncpp mysqlclient log4cplus)
+target_link_libraries(main jsoncpp mysqlclient log4cplus hiredis)

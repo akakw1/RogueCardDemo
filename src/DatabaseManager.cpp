@@ -17,6 +17,8 @@ void DatabaseManager::init(const std::string host, const std::string user, const
     conf.debug = debug;
 
     conn = sqlpp::mysql::connection(conf);
+
+    logger->info("Database connect success");
 }
 
 bool DatabaseManager::signUp(const std::string username, const std::string password) {

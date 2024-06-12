@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/home/wzx/桌面/Project/build",
+  "command": "/usr/bin/c++  -I/usr/include/mysql -g -std=gnu++11 -o CMakeFiles/main.dir/main.cpp.o -c /home/wzx/桌面/Project/main.cpp",
+  "file": "/home/wzx/桌面/Project/main.cpp",
+  "output": "CMakeFiles/main.dir/main.cpp.o"
+},
+{
+  "directory": "/home/wzx/桌面/Project/build",
+  "command": "/usr/bin/c++  -I/usr/include/mysql -g -std=gnu++11 -o CMakeFiles/main.dir/src/DatabaseManager.cpp.o -c /home/wzx/桌面/Project/src/DatabaseManager.cpp",
+  "file": "/home/wzx/桌面/Project/src/DatabaseManager.cpp",
+  "output": "CMakeFiles/main.dir/src/DatabaseManager.cpp.o"
+},
+{
+  "directory": "/home/wzx/桌面/Project/build",
+  "command": "/usr/bin/c++  -I/usr/include/mysql -g -std=gnu++11 -o CMakeFiles/main.dir/src/LogManager.cpp.o -c /home/wzx/桌面/Project/src/LogManager.cpp",
+  "file": "/home/wzx/桌面/Project/src/LogManager.cpp",
+  "output": "CMakeFiles/main.dir/src/LogManager.cpp.o"
+},
+{
+  "directory": "/home/wzx/桌面/Project/build",
+  "command": "/usr/bin/c++  -I/usr/include/mysql -g -std=gnu++11 -o CMakeFiles/main.dir/src/RedisManager.cpp.o -c /home/wzx/桌面/Project/src/RedisManager.cpp",
+  "file": "/home/wzx/桌面/Project/src/RedisManager.cpp",
+  "output": "CMakeFiles/main.dir/src/RedisManager.cpp.o"
+}
+]

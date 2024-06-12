@@ -3,6 +3,9 @@
 #include <hiredis/hiredis.h>
 #include <string>
 
+#include "LogManager.h"
+#include "status.h"
+
 typedef class RedisManager {
 // -----------------
     private :
@@ -10,10 +13,14 @@ typedef class RedisManager {
     static RedisManager* instance;
     RedisManager();
 
-    redisContext conn;
+    redisContext* conn;
+
+    LM logger;
 
 // -----------------
     public :
+
+    ~RedisManager();
 
     static RedisManager* getInstance();
     void init(std::string host, int port);
@@ -23,5 +30,3 @@ typedef class RedisManager {
     void removeToken(int userId);
 
 } *RM;
-
-RM RedisManager::instance = nullptr;

@@ -1,2 +1,5 @@
-[06/11/24 16:22:18,848 INFO ] - log manager init success
-[06/11/24 16:22:18,848 INFO ] - Database Manager onCreate
+[06/12/24 14:59:03,584 INFO ] - log manager init success
+[06/12/24 14:59:03,584 INFO ] - Database Manager onCreate
+[06/12/24 14:59:03,586 INFO ] - Redis Manager onCreate
+[06/12/24 14:59:03,586 INFO ] - Redis connect success
+[06/12/24 14:59:03,587 INFO ] - system closed
