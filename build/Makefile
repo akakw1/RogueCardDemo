@@ -153,6 +153,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/Connection.o: src/Connection.cpp.o
+.PHONY : src/Connection.o
+
+# target to build an object file
+src/Connection.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Connection.cpp.o
+.PHONY : src/Connection.cpp.o
+
+src/Connection.i: src/Connection.cpp.i
+.PHONY : src/Connection.i
+
+# target to preprocess a source file
+src/Connection.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Connection.cpp.i
+.PHONY : src/Connection.cpp.i
+
+src/Connection.s: src/Connection.cpp.s
+.PHONY : src/Connection.s
+
+# target to generate assembly for a file
+src/Connection.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Connection.cpp.s
+.PHONY : src/Connection.cpp.s
+
 src/DatabaseManager.o: src/DatabaseManager.cpp.o
 .PHONY : src/DatabaseManager.o
 
@@ -225,6 +249,30 @@ src/RedisManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/RedisManager.cpp.s
 .PHONY : src/RedisManager.cpp.s
 
+src/core.o: src/core.cpp.o
+.PHONY : src/core.o
+
+# target to build an object file
+src/core.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/core.cpp.o
+.PHONY : src/core.cpp.o
+
+src/core.i: src/core.cpp.i
+.PHONY : src/core.i
+
+# target to preprocess a source file
+src/core.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/core.cpp.i
+.PHONY : src/core.cpp.i
+
+src/core.s: src/core.cpp.s
+.PHONY : src/core.s
+
+# target to generate assembly for a file
+src/core.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/core.cpp.s
+.PHONY : src/core.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -237,6 +285,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/Connection.o"
+	@echo "... src/Connection.i"
+	@echo "... src/Connection.s"
 	@echo "... src/DatabaseManager.o"
 	@echo "... src/DatabaseManager.i"
 	@echo "... src/DatabaseManager.s"
@@ -246,6 +297,9 @@ help:
 	@echo "... src/RedisManager.o"
 	@echo "... src/RedisManager.i"
 	@echo "... src/RedisManager.s"
+	@echo "... src/core.o"
+	@echo "... src/core.i"
+	@echo "... src/core.s"
 .PHONY : help
 
 

@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/main.dir/main.cpp.o CMakeFiles/main.dir/src/DatabaseManager.cpp.o CMakeFiles/main.dir/src/LogManager.cpp.o CMakeFiles/main.dir/src/RedisManager.cpp.o -o main  ./lib/libjsoncpp.a -lmysqlclient -llog4cplus -lhiredis 
+/usr/bin/c++ -g CMakeFiles/main.dir/main.cpp.o CMakeFiles/main.dir/src/Connection.cpp.o CMakeFiles/main.dir/src/DatabaseManager.cpp.o CMakeFiles/main.dir/src/LogManager.cpp.o CMakeFiles/main.dir/src/RedisManager.cpp.o CMakeFiles/main.dir/src/core.cpp.o -o main  ./lib/libjsoncpp.a -lmysqlclient -llog4cplus -lhiredis 

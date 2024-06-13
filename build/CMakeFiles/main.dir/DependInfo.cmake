@@ -9,9 +9,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/wzx/桌面/Project/main.cpp" "CMakeFiles/main.dir/main.cpp.o" "gcc" "CMakeFiles/main.dir/main.cpp.o.d"
+  "/home/wzx/桌面/Project/src/Connection.cpp" "CMakeFiles/main.dir/src/Connection.cpp.o" "gcc" "CMakeFiles/main.dir/src/Connection.cpp.o.d"
   "/home/wzx/桌面/Project/src/DatabaseManager.cpp" "CMakeFiles/main.dir/src/DatabaseManager.cpp.o" "gcc" "CMakeFiles/main.dir/src/DatabaseManager.cpp.o.d"
   "/home/wzx/桌面/Project/src/LogManager.cpp" "CMakeFiles/main.dir/src/LogManager.cpp.o" "gcc" "CMakeFiles/main.dir/src/LogManager.cpp.o.d"
   "/home/wzx/桌面/Project/src/RedisManager.cpp" "CMakeFiles/main.dir/src/RedisManager.cpp.o" "gcc" "CMakeFiles/main.dir/src/RedisManager.cpp.o.d"
+  "/home/wzx/桌面/Project/src/core.cpp" "CMakeFiles/main.dir/src/core.cpp.o" "gcc" "CMakeFiles/main.dir/src/core.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

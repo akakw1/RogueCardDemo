@@ -83,10 +83,24 @@ CMakeFiles/main.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wzx/桌面/Project/main.cpp -o CMakeFiles/main.dir/main.cpp.s
 
+CMakeFiles/main.dir/src/Connection.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/Connection.cpp.o: /home/wzx/桌面/Project/src/Connection.cpp
+CMakeFiles/main.dir/src/Connection.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/wzx/桌面/Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/Connection.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Connection.cpp.o -MF CMakeFiles/main.dir/src/Connection.cpp.o.d -o CMakeFiles/main.dir/src/Connection.cpp.o -c /home/wzx/桌面/Project/src/Connection.cpp
+
+CMakeFiles/main.dir/src/Connection.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/Connection.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wzx/桌面/Project/src/Connection.cpp > CMakeFiles/main.dir/src/Connection.cpp.i
+
+CMakeFiles/main.dir/src/Connection.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/Connection.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wzx/桌面/Project/src/Connection.cpp -o CMakeFiles/main.dir/src/Connection.cpp.s
+
 CMakeFiles/main.dir/src/DatabaseManager.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/DatabaseManager.cpp.o: /home/wzx/桌面/Project/src/DatabaseManager.cpp
 CMakeFiles/main.dir/src/DatabaseManager.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/wzx/桌面/Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/DatabaseManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/wzx/桌面/Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/DatabaseManager.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/DatabaseManager.cpp.o -MF CMakeFiles/main.dir/src/DatabaseManager.cpp.o.d -o CMakeFiles/main.dir/src/DatabaseManager.cpp.o -c /home/wzx/桌面/Project/src/DatabaseManager.cpp
 
 CMakeFiles/main.dir/src/DatabaseManager.cpp.i: cmake_force
@@ -100,7 +114,7 @@ CMakeFiles/main.dir/src/DatabaseManager.cpp.s: cmake_force
 CMakeFiles/main.dir/src/LogManager.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/LogManager.cpp.o: /home/wzx/桌面/Project/src/LogManager.cpp
 CMakeFiles/main.dir/src/LogManager.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/wzx/桌面/Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/LogManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/wzx/桌面/Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/LogManager.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/LogManager.cpp.o -MF CMakeFiles/main.dir/src/LogManager.cpp.o.d -o CMakeFiles/main.dir/src/LogManager.cpp.o -c /home/wzx/桌面/Project/src/LogManager.cpp
 
 CMakeFiles/main.dir/src/LogManager.cpp.i: cmake_force
@@ -114,7 +128,7 @@ CMakeFiles/main.dir/src/LogManager.cpp.s: cmake_force
 CMakeFiles/main.dir/src/RedisManager.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/RedisManager.cpp.o: /home/wzx/桌面/Project/src/RedisManager.cpp
 CMakeFiles/main.dir/src/RedisManager.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/wzx/桌面/Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/RedisManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/wzx/桌面/Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/src/RedisManager.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/RedisManager.cpp.o -MF CMakeFiles/main.dir/src/RedisManager.cpp.o.d -o CMakeFiles/main.dir/src/RedisManager.cpp.o -c /home/wzx/桌面/Project/src/RedisManager.cpp
 
 CMakeFiles/main.dir/src/RedisManager.cpp.i: cmake_force
@@ -125,24 +139,42 @@ CMakeFiles/main.dir/src/RedisManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/RedisManager.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wzx/桌面/Project/src/RedisManager.cpp -o CMakeFiles/main.dir/src/RedisManager.cpp.s
 
+CMakeFiles/main.dir/src/core.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/core.cpp.o: /home/wzx/桌面/Project/src/core.cpp
+CMakeFiles/main.dir/src/core.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/wzx/桌面/Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/src/core.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/core.cpp.o -MF CMakeFiles/main.dir/src/core.cpp.o.d -o CMakeFiles/main.dir/src/core.cpp.o -c /home/wzx/桌面/Project/src/core.cpp
+
+CMakeFiles/main.dir/src/core.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/core.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wzx/桌面/Project/src/core.cpp > CMakeFiles/main.dir/src/core.cpp.i
+
+CMakeFiles/main.dir/src/core.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/core.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wzx/桌面/Project/src/core.cpp -o CMakeFiles/main.dir/src/core.cpp.s
+
 # Object files for target main
 main_OBJECTS = \
 "CMakeFiles/main.dir/main.cpp.o" \
+"CMakeFiles/main.dir/src/Connection.cpp.o" \
 "CMakeFiles/main.dir/src/DatabaseManager.cpp.o" \
 "CMakeFiles/main.dir/src/LogManager.cpp.o" \
-"CMakeFiles/main.dir/src/RedisManager.cpp.o"
+"CMakeFiles/main.dir/src/RedisManager.cpp.o" \
+"CMakeFiles/main.dir/src/core.cpp.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
 main: CMakeFiles/main.dir/main.cpp.o
+main: CMakeFiles/main.dir/src/Connection.cpp.o
 main: CMakeFiles/main.dir/src/DatabaseManager.cpp.o
 main: CMakeFiles/main.dir/src/LogManager.cpp.o
 main: CMakeFiles/main.dir/src/RedisManager.cpp.o
+main: CMakeFiles/main.dir/src/core.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: ./lib/libjsoncpp.a
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/wzx/桌面/Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/wzx/桌面/Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
