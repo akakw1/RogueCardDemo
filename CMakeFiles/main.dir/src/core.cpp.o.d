@@ -1,6 +1,7 @@
-CMakeFiles/main.dir/main.cpp.o: /home/wzx/桌面/Project/main.cpp \
+CMakeFiles/main.dir/src/core.cpp.o: /home/wzx/桌面/Project/src/core.cpp \
  /usr/include/stdc-predef.h \
- /home/wzx/桌面/Project/include/DatabaseManager.h \
+ /home/wzx/桌面/Project/src/../include/core.h \
+ /home/wzx/桌面/Project/src/../include/DatabaseManager.h \
  /usr/local/include/sqlpp11/mysql/mysql.h \
  /usr/local/include/sqlpp11/mysql/connection.h \
  /usr/local/include/sqlpp11/connection.h \
@@ -458,10 +459,11 @@ CMakeFiles/main.dir/main.cpp.o: /home/wzx/桌面/Project/main.cpp \
  /usr/include/c++/13/compare /usr/include/c++/13/deque \
  /usr/include/c++/13/bits/stl_deque.h /usr/include/c++/13/bits/deque.tcc \
  /usr/include/c++/13/stack /usr/include/c++/13/bits/stl_stack.h \
- /usr/include/json/writer.h /home/wzx/桌面/Project/include/Account.h \
- /home/wzx/桌面/Project/include/Version.h \
- /home/wzx/桌面/Project/include/Enemy.h \
- /home/wzx/桌面/Project/include/LogManager.h \
+ /usr/include/json/writer.h \
+ /home/wzx/桌面/Project/src/../include/Account.h \
+ /home/wzx/桌面/Project/src/../include/Version.h \
+ /home/wzx/桌面/Project/src/../include/Enemy.h \
+ /home/wzx/桌面/Project/src/../include/LogManager.h \
  /usr/local/include/log4cplus/logger.h \
  /usr/local/include/log4cplus/config.hxx \
  /usr/local/include/log4cplus/config/defines.hxx \
@@ -485,12 +487,12 @@ CMakeFiles/main.dir/main.cpp.o: /home/wzx/桌面/Project/main.cpp \
  /usr/include/c++/13/cstdarg /usr/local/include/log4cplus/tracelogger.h \
  /usr/local/include/log4cplus/configurator.h \
  /usr/local/include/log4cplus/helpers/property.h \
- /home/wzx/桌面/Project/include/RedisManager.h \
+ /home/wzx/桌面/Project/src/../include/RedisManager.h \
  /usr/include/hiredis/hiredis.h /usr/include/hiredis/read.h \
  /usr/include/x86_64-linux-gnu/sys/time.h /usr/include/hiredis/sds.h \
- /usr/include/hiredis/alloc.h /home/wzx/桌面/Project/include/status.h \
- /home/wzx/桌面/Project/include/core.h /usr/include/c++/13/queue \
- /usr/include/c++/13/bits/stl_queue.h \
+ /usr/include/hiredis/alloc.h \
+ /home/wzx/桌面/Project/src/../include/status.h \
+ /usr/include/c++/13/queue /usr/include/c++/13/bits/stl_queue.h \
  /usr/include/x86_64-linux-gnu/sys/socket.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
  /usr/include/x86_64-linux-gnu/bits/socket.h \
@@ -508,8 +510,4 @@ CMakeFiles/main.dir/main.cpp.o: /home/wzx/桌面/Project/main.cpp \
  /usr/include/asm-generic/sockios.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
  /usr/include/netinet/in.h /usr/include/x86_64-linux-gnu/bits/in.h \
- /usr/include/arpa/inet.h /home/wzx/桌面/Project/include/Connection.h \
- /usr/include/c++/13/fstream \
- /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
- /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
- /usr/include/c++/13/bits/fstream.tcc
+ /usr/include/arpa/inet.h

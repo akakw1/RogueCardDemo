@@ -33,7 +33,7 @@ void DatabaseManager::getData(Json::Value &res) {
     res = Json::Value(Json::arrayValue);
     CardGame::Enemy tmp;
     Json::Value e;
-    for(const auto &row : conn.run(select(tmp.id, tmp.name, tmp.MaxHp).from(tmp))) {
+    for(const auto &row : conn.run(select(tmp.id, tmp.name, tmp.MaxHp).from(tmp).where(tmp.id >= 0))) {
         e["id"] = (int)row.id;
         e["name"] = (std::string)row.name;
         e["MaxHp"] = (int)row.MaxHp;

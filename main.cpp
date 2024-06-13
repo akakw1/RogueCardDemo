@@ -2,6 +2,8 @@
 #include "include/RedisManager.h"
 #include "include/LogManager.h"
 #include "include/status.h"
+#include "include/core.h"
+#include "include/Connection.h"
 
 #include <json/json.h>
 #include <fstream>
@@ -38,14 +40,26 @@ void initRedis() {
     int port = redisConfig["port"].asInt();
     rm->init(host, port);
 }
+void initCore() {
+    Json::Value serverConfig = config["server"];
+    std::string host = serverConfig["host"].asString();
+    int port = serverConfig["port"].asInt();
+    core.init(host, port);
+}
 
 void init() {
     loadConfig();
     initLogger();
     initDB();
     initRedis();
+    initCore();
 
     if(status != ERROR) status = REDAY;
+
+    core.start();
+    Connection conn;
+    conn.accept(core.getSocket());
+    conn.loop();
 
     LogManager::getInstance()->info("system closed");
 }

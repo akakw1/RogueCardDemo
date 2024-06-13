@@ -1,14 +1,22 @@
 #include "../include/core.h"
 
+Core core;
+
 Core::Core() {
     ready = false;
 }
-Core::~Core() {}
+Core::~Core() {
+}
 
-void Core::init() {
+void Core::init(const std::string &host, int port) {
     logger = LogManager::getInstance();
     db = DatabaseManager::getInstance();
     redis = RedisManager::getInstance();
+
+    serverSocket = socket(AF_INET, SOCK_STREAM, 0);
+    addr.sin_family = AF_INET;
+    addr.sin_addr.s_addr = inet_addr(host.c_str());
+    addr.sin_port = htons(port);
 
     ready = true;
 
@@ -18,12 +26,20 @@ void Core::init() {
 
     if(ready) logger->info("Core is ready");
 }
+int Core::getSocket() { return serverSocket;}
 
 void Core::loop() {
     if(! requestQueue.empty()) {
         solve(requestQueue.front().first, requestQueue.front().second);
         requestQueue.pop();
     }
+}
+void Core::start() {
+    logger->info("core is running");
+    status = RUNNING;
+    bind(serverSocket, (sockaddr*) &addr, sizeof(addr));
+    listen(serverSocket, 1);
+    logger->info("server listening");
 }
 
 void Core::add(Json::Value* request, Json::Value* reply) {

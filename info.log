@@ -1,5 +1,10 @@
-[06/12/24 14:59:03,584 INFO ] - log manager init success
-[06/12/24 14:59:03,584 INFO ] - Database Manager onCreate
-[06/12/24 14:59:03,586 INFO ] - Redis Manager onCreate
-[06/12/24 14:59:03,586 INFO ] - Redis connect success
-[06/12/24 14:59:03,587 INFO ] - system closed
+[06/13/24 16:06:21,640 INFO ] - log manager init success
+[06/13/24 16:06:21,640 INFO ] - Database Manager onCreate
+[06/13/24 16:06:21,643 INFO ] - Database connect success
+[06/13/24 16:06:21,643 INFO ] - Redis Manager onCreate
+[06/13/24 16:06:21,643 INFO ] - Redis connect success
+[06/13/24 16:06:21,643 INFO ] - Core is ready
+[06/13/24 16:06:21,643 INFO ] - core is running
+[06/13/24 16:06:21,643 INFO ] - server listening
+[06/13/24 16:07:33,192 INFO ] - new connection accepted from 127.0.0.1 : 53984
+[06/13/24 16:08:01,484 INFO ] - system closed
