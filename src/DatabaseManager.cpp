@@ -22,14 +22,23 @@ void DatabaseManager::init(const std::string host, const std::string user, const
 }
 
 bool DatabaseManager::signUp(const std::string username, const std::string password) {
-    demo::Accounts tmp;
-    conn(insert_into(tmp).set(tmp.userName = username, tmp.passWord = password));
     return 1;
 }
-bool DatabaseManager::signIn(const std::string username, const std::string password) {
-    demo::Accounts tmp;
-    auto result = conn(select(tmp.userId).from(tmp).where(tmp.userName == username.c_str() and tmp.passWord == password.c_str()));
+bool DatabaseManager::signIn(const int id, const std::string password) {
+    CardGame::Account tmp;
+    auto result = conn(select(tmp.id).from(tmp).where(tmp.id == id and tmp.password == password.c_str()));
     return ! result.empty();
+}
+void DatabaseManager::getData(Json::Value &res) {
+    res = Json::Value(Json::arrayValue);
+    CardGame::Enemy tmp;
+    Json::Value e;
+    for(const auto &row : conn.run(select(tmp.id, tmp.name, tmp.MaxHp).from(tmp))) {
+        e["id"] = (int)row.id;
+        e["name"] = (std::string)row.name;
+        e["MaxHp"] = (int)row.MaxHp;
+        res.append(e);
+    }
 }
 
 DatabaseManager::DatabaseManager() {

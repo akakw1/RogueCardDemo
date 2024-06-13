@@ -11,7 +11,7 @@ class Connection {
     // ---------------
     private :
 
-    const static size_t bufferSize = 1024;
+    const static size_t bufferSize = 2048;
 
     socklen_t addrSize;
     sockaddr_in addr;

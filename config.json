@@ -1,11 +1,11 @@
 {
-    "version" : "0.1",
+    "version" : "0.2",
     "database" : {
         "dbms" : "mysql",
         "host" : "localhost",
         "user" : "DBServer",
         "password" : "DBServer@123",
-        "database" : "demo",
+        "database" : "CardGame",
         "debug" : false
     },
     "redis" : {

@@ -27,4 +27,7 @@ class Core {
 
     void add(Json::Value* request, Json::Value* reply);
 
+    bool signIn(const int &id, const std::string &password, std::string &token);
+    void getData(Json::Value &res);
+
 } core;

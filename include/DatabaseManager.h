@@ -2,9 +2,13 @@
 
 #include <sqlpp11/mysql/mysql.h>
 #include <sqlpp11/sqlpp11.h>
+#include <json/json.h>
 #include <string>
 
-#include "demo.h"
+//#include "demo.h"
+#include "Account.h"
+#include "Version.h"
+#include "Enemy.h"
 #include "LogManager.h"
 
 typedef class DatabaseManager {
@@ -26,6 +30,7 @@ typedef class DatabaseManager {
     static DatabaseManager* getInstance();
 
     bool signUp(const std::string username, const std::string password);
-    bool signIn(const std::string username, const std::string password);
+    bool signIn(const int id, const std::string password);
+    void getData(Json::Value &res);
 
 } *DBM;
