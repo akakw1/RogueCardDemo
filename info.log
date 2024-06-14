@@ -1,10 +1,67 @@
-[06/13/24 16:06:21,640 INFO ] - log manager init success
-[06/13/24 16:06:21,640 INFO ] - Database Manager onCreate
-[06/13/24 16:06:21,643 INFO ] - Database connect success
-[06/13/24 16:06:21,643 INFO ] - Redis Manager onCreate
-[06/13/24 16:06:21,643 INFO ] - Redis connect success
-[06/13/24 16:06:21,643 INFO ] - Core is ready
-[06/13/24 16:06:21,643 INFO ] - core is running
-[06/13/24 16:06:21,643 INFO ] - server listening
-[06/13/24 16:07:33,192 INFO ] - new connection accepted from 127.0.0.1 : 53984
-[06/13/24 16:08:01,484 INFO ] - system closed
+[06/14/24 19:21:25,860 INFO ] - log manager init success
+[06/14/24 19:21:25,860 INFO ] - Database Manager onCreate
+[06/14/24 19:21:25,863 INFO ] - Database connect success
+[06/14/24 19:21:25,863 INFO ] - Redis Manager onCreate
+[06/14/24 19:21:25,863 INFO ] - Redis connect success
+[06/14/24 19:21:25,863 INFO ] - Core is ready
+[06/14/24 19:21:25,863 INFO ] - core is running
+[06/14/24 19:21:25,863 INFO ] - server listening
+[06/14/24 19:21:47,596 INFO ] - new connection accepted from 10.110.79.70 : 42716
+[06/14/24 19:24:58,733 INFO ] - log manager init success
+[06/14/24 19:24:58,733 INFO ] - Database Manager onCreate
+[06/14/24 19:24:58,736 INFO ] - Database connect success
+[06/14/24 19:24:58,736 INFO ] - Redis Manager onCreate
+[06/14/24 19:24:58,736 INFO ] - Redis connect success
+[06/14/24 19:24:58,736 INFO ] - Core is ready
+[06/14/24 19:24:58,736 INFO ] - core is running
+[06/14/24 19:24:58,736 INFO ] - server listening
+[06/14/24 19:25:32,047 INFO ] - new connection accepted from 10.110.79.70 : 42994
+[06/14/24 19:25:33,115 INFO ] - system closed
+[06/14/24 19:30:33,661 INFO ] - log manager init success
+[06/14/24 19:30:33,661 INFO ] - Database Manager onCreate
+[06/14/24 19:30:33,664 INFO ] - Database connect success
+[06/14/24 19:30:33,664 INFO ] - Redis Manager onCreate
+[06/14/24 19:30:33,664 INFO ] - Redis connect success
+[06/14/24 19:30:33,664 INFO ] - Core is ready
+[06/14/24 19:30:33,664 INFO ] - core is running
+[06/14/24 19:30:33,664 INFO ] - server listening
+[06/14/24 19:30:59,409 INFO ] - new connection accepted from 10.110.79.70 : 43291
+[06/14/24 19:31:00,489 INFO ] - system closed
+[06/14/24 19:34:21,714 INFO ] - log manager init success
+[06/14/24 19:34:21,714 INFO ] - Database Manager onCreate
+[06/14/24 19:34:21,716 INFO ] - Database connect success
+[06/14/24 19:34:21,716 INFO ] - Redis Manager onCreate
+[06/14/24 19:34:21,716 INFO ] - Redis connect success
+[06/14/24 19:34:21,716 INFO ] - Core is ready
+[06/14/24 19:34:21,716 INFO ] - core is running
+[06/14/24 19:34:21,716 INFO ] - server listening
+[06/14/24 19:35:08,290 INFO ] - new connection accepted from 10.110.79.70 : 43505
+[06/14/24 19:35:09,336 INFO ] - system closed
+[06/14/24 19:36:21,521 INFO ] - log manager init success
+[06/14/24 19:36:21,521 INFO ] - Database Manager onCreate
+[06/14/24 19:36:21,526 INFO ] - Database connect success
+[06/14/24 19:36:21,526 INFO ] - Redis Manager onCreate
+[06/14/24 19:36:21,526 INFO ] - Redis connect success
+[06/14/24 19:36:21,526 INFO ] - Core is ready
+[06/14/24 19:36:21,526 INFO ] - core is running
+[06/14/24 19:36:21,526 INFO ] - server listening
+[06/14/24 19:36:43,199 INFO ] - new connection accepted from 10.110.79.70 : 43587
+[06/14/24 19:36:44,257 INFO ] - system closed
+[06/14/24 19:37:25,499 INFO ] - log manager init success
+[06/14/24 19:37:25,499 INFO ] - Database Manager onCreate
+[06/14/24 19:37:25,502 INFO ] - Database connect success
+[06/14/24 19:37:25,502 INFO ] - Redis Manager onCreate
+[06/14/24 19:37:25,502 INFO ] - Redis connect success
+[06/14/24 19:37:25,502 INFO ] - Core is ready
+[06/14/24 19:37:25,502 INFO ] - core is running
+[06/14/24 19:37:25,502 INFO ] - server listening
+[06/14/24 19:40:18,952 INFO ] - log manager init success
+[06/14/24 19:40:18,952 INFO ] - Database Manager onCreate
+[06/14/24 19:40:18,954 INFO ] - Database connect success
+[06/14/24 19:40:18,954 INFO ] - Redis Manager onCreate
+[06/14/24 19:40:18,954 INFO ] - Redis connect success
+[06/14/24 19:40:18,954 INFO ] - Core is ready
+[06/14/24 19:40:18,954 INFO ] - core is running
+[06/14/24 19:40:18,954 INFO ] - server listening
+[06/14/24 19:42:24,030 INFO ] - new connection accepted from 10.110.79.70 : 43851
+[06/14/24 19:42:25,124 INFO ] - system closed
